@@ -11,7 +11,7 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
 		<html
 			lang="en"
 			suppressHydrationWarning>
-			<body>
+			<body className="bg-[url(/white-bg.jpg)] bg-cover bg-no-repeat dark:bg-[url(/dark-bg.jpg)]">
 				<ThemeProvider
 					attribute={"class"}
 					defaultTheme="dark"
